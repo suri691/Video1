@@ -18,3 +18,7 @@ print(low)
 sum = open - close
 print (sum)
 
+name = input("type your name: ")
+print(name)
+age = input("type your age: ")
+print(age)
