@@ -15,3 +15,6 @@ close = 13250
 
 print(low)
 
+sum = open - close
+print (sum)
+
