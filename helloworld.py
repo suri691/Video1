@@ -8,3 +8,10 @@ print("Neeraj suri")
 
 username = ('Jharna suri')
 print(username)
+
+open = 13500
+low = 13000
+close = 13250
+
+print(low)
+
