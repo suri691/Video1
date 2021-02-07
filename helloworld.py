@@ -22,3 +22,9 @@ name = input("type your name: ")
 print(name)
 age = input("type your age: ")
 print(age)
+
+Friend=print("Are you my friend?")
+if friend=="yes":
+	print ("Iam your friend too")
+else:
+	print ("enemy")
