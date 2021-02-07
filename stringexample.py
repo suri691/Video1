@@ -21,3 +21,15 @@ date = "22/12/2020"
 time = "11:35:00"
 
 print("\nopen_today:",open_today,"\nclose_today",close_today, "\nhigh_today\t", high_today, "\nlow_today\t", low_today, "\nvolume:\t\t", volume, "\ndate:\t\t", date, "\ntime:\t\t", time)
+
+""" tuple amd list their is a difference () - tuple [] is list
+Tuple is unchangable and list is called as changebale """
+
+name_list  = ["neeraj", "Jaharna", "Anya"]
+print(name_list[0])
+print(name_list[1])
+print(name_list[2])
+
+print(name_list[0],[1],[2])
+name_list [3] = "Savira"
+print(name_list)
