@@ -28,3 +28,13 @@ if friend=="yes":
 	print ("Iam your friend too")
 else:
 	print ("enemy")
+
+	print("$.'*16")
+
+unit = 	15000
+price = 250
+amount = ("unit.'*price")
+print (amount)
+
+print("neeraj suri")
+print("Anya suri")
