@@ -31,5 +31,22 @@ print(name_list[1])
 print(name_list[2])
 
 print(name_list[0],[1],[2])
-name_list [3] = "Savira"
+name_list [0] = "Savira"
+name_list[1]  = "Nishant"
+
 print(name_list)
+
+print(name_list[2])
+print(name_list[1])
+
+
+print(name_list)
+
+name_list.append("karan")
+print(name_list)
+
+home_people = [["Neeraj", "Jharna", "Anya", "Savira"],
+				[39,36,3,70], 
+				["american", "Indian", "austrailian"]]
+
+print((home_people[0][2]),home_people[1][2],home_people[2][2])				
