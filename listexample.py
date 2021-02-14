@@ -74,5 +74,52 @@ while True:
 	if(incrementing_number > ending_numner):
 		break	
 
-print("ended loop")		
+print("ended loop")
 
+
+for i in range(0,2000,100):		
+	print(i+100)
+
+daily_timeframe = [15119.15, 15168.25, 14977.20, 15106.50, 250000, 1500000]
+for list_item in daily_timeframe:
+	print(list_item)
+	print(len(daily_timeframe))
+
+	print(len(daily_timeframe))
+
+	for i in range (0,len(daily_timeframe)):
+		print(daily_timeframe[i]*10)
+
+
+
+win_trades = 100
+average_win = 400
+amount_made = 200*100
+loss_trades = 150
+average_loss = 500
+amount_lost = 150*50
+profit_factor = (amount_made/amount_lost)	
+
+print(profit_factor)
+
+volume_list = [2500,1452022,558555,545855,84455]
+
+summation = 0
+
+for list_item in volume_list:
+ 		print(list_item)
+ 		summation = summation+list_item 
+ 		print(summation)
+ 		print(summation/5)
+ 		print()
+
+nding_numner = 100
+incrementing_number = 1 
+while True:
+	print(incrementing_number)
+	incrementing_number = incrementing_number + 1
+
+	if(incrementing_number > ending_numner):
+		break	
+
+print("ended loop")
